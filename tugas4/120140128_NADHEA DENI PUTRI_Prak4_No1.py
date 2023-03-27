@@ -4,6 +4,7 @@ class Komputer:
         self.jenis = jenis
         self.harga = harga
         self.merk = merk
+        self.komponen = []
 
     def str(self):
         return (f"{self.nama} {self.jenis} produksi {self.merk}")
